@@ -1,0 +1,30 @@
+:root {
+    --clr-list-bg: hsla(179, 62%, 43%, 0.7);
+    --clr-cyan: hsl(179, 62%, 43%);
+    --clr-yellow: hsl(71, 73%, 54%);
+    --clr-light-grey: hsl(204, 43%, 93%);
+    --clr-blue: hsl(218, 22%, 67%);
+    
+
+    --ff-karla: 'Karla', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+    font-size: var(--ff-karla);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
